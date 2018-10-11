@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Editor from './Editor.js';
 import MarkDownDisplay from './MarkDownDisplay.js';
+import config from '../config.js';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: ''
+      input: config.welcomeScript
     };
 
     this.handleChange = this.handleChange.bind(this);
