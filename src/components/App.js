@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Editor from './Editor.js';
 import MarkDownDisplay from './MarkDownDisplay.js';
 import config from '../config.js';
+import '../css/App.css';
 
 class App extends Component {
   constructor(props) {
@@ -19,9 +20,15 @@ class App extends Component {
 
   render(){
     return(
-      <div className="App">
-        <Editor input={this.state.input} onChange={this.handleChange}/>
-        <MarkDownDisplay input={this.state.input}/>
+      <div id="App">
+        <h1>Markdown Previwer</h1>
+        <p>
+          {config.acknowledgements}
+        </p>
+        <div id="markdown-previewer">
+          <Editor input={this.state.input} onChange={this.handleChange}/>
+          <MarkDownDisplay input={this.state.input}/>
+        </div>
       </div>
     );
   }

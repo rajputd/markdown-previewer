@@ -1,0 +1,7 @@
+#markdown-previewer {
+  display: flex;
+}
+
+#markdown-previewer * {
+  margin: 5px;
+}

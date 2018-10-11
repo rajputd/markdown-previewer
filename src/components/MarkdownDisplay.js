@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Marked from 'marked';
+import '../css/MarkDownDisplay.css';
 
 //set up Marked to sanitize html
 Marked.setOptions({
@@ -19,7 +20,7 @@ export default class MarkDownDisplay extends Component{
   render() {
     const markdown = Marked(this.props.input);
     return (
-      <div dangerouslySetInnerHTML={{__html: markdown}} />
+      <div id="preview" dangerouslySetInnerHTML={{__html: markdown}} />
     )
   }
 }

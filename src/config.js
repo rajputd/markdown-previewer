@@ -42,7 +42,11 @@ more content for header 1 | more content for header 2 | more content for header 
 * let's not forget embedded images:
 
 ![React Logo w/ Text](https://goo.gl/Umyytc)
-`
+`,
+
+acknowledgements: `This a Markdown previewer built using React. You can enter
+markdown on the left and see it get rendered on the right. Shout out to Free
+Code Camp and CS50M for teaching me enough React to build this.`
 }
 
 module.exports = config;

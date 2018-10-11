@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../css/Editor.css';
 
 export default class Editor extends Component {
   constructor(props) {
@@ -7,7 +8,7 @@ export default class Editor extends Component {
 
   render() {
     return (
-      <textarea value={this.props.input} onChange={this.props.onChange} />
+      <textarea id="editor" value={this.props.input} onChange={this.props.onChange} />
     )
   }
 }
