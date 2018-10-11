@@ -7,7 +7,7 @@ export default class MarkDownDisplay extends Component{
 
   render() {
     return (
-      <textarea value={this.props.markdown}/>
+      <textarea value={this.props.input} readOnly/>
     )
   }
 }
