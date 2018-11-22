@@ -21,8 +21,8 @@ class App extends Component {
   render(){
     return(
       <div id="App">
-        <h1>Markdown Previwer</h1>
-        <p>
+        <h1 class="center header-font text-light">Markdown Previwer</h1>
+        <p class="text-light">
           {config.acknowledgements}
         </p>
         <div id="markdown-previewer">

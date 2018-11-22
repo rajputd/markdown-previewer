@@ -5,3 +5,29 @@
 #markdown-previewer * {
   margin: 5px;
 }
+
+body {
+  font-family: Courier;
+  background-color: #252627;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.round-corners {
+  border-radius: 1%;
+}
+
+.header-font {
+  font-family: Arial;
+}
+
+.text-light {
+  color: #FFF9FB;
+}
+
+.bg-light {
+  background-color: #FFF9FB;
+}
