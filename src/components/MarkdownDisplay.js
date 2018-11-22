@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Marked from 'marked';
-import '../css/MarkDownDisplay.css';
+import '../css/MarkdownDisplay.css';
 
 //set up Marked to sanitize html
 Marked.setOptions({

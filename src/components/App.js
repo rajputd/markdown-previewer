@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Editor from './Editor.js';
-import MarkDownDisplay from './MarkDownDisplay.js';
+import MarkDownDisplay from './MarkdownDisplay.js';
 import config from '../config.js';
 import '../css/App.css';
 
